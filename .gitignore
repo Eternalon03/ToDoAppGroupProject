@@ -1,0 +1,8 @@
+build/
+out/
+*.class
+.idea
+.gradle
+.DS_Store
+taskList.json
+prefs.json

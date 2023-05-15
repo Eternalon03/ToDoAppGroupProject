@@ -1,0 +1,49 @@
+#closeButton {
+    -fx-background-color: #BB86FC;
+    -fx-cursor: pointer;
+}
+
+#chooseFileButton {
+    -fx-text-fill: white;
+    -fx-background-color: #2e314e;
+    -fx-cursor: pointer;
+}
+
+AnchorPane, .root, #taskView, #Content {
+    -fx-background-color: #19161d;
+    -fx-font-family: "Apple Symbols";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.combo-box {
+    -fx-background-color: #2e314e;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #BB86FC;
+}
+
+.combo-box .list-cell:focused {
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-text-fill: white;
+    -fx-background-color: #BB86FC;
+}
+
+.combo-box .list-view {
+    -fx-text-fill: white;
+    -fx-background-color: #2e314e;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #2e314e;
+}
+

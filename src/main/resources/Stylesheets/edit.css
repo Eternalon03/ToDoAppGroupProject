@@ -1,0 +1,172 @@
+#saveButton {
+    -fx-background-color: #BB86FC;
+    -fx-background-radius: 38%;
+    -fx-cursor: pointer;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+AnchorPane, .root, #backAnchor {
+    -fx-background-color: #1F1B24;
+    -fx-font-family: "Apple Symbols";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+TextArea, .root, #descText {
+    -fx-background-color: #1F1B24;
+    -fx-font-family: "Apple Symbols";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.text-area .content {
+    -fx-background-color: #121212;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+
+.combo-box-base {
+    -fx-text-fill: white;
+    -fx-background-color: #2e314e;
+    -fx-max-width: 250px;
+}
+
+.combo-box {
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #2e314e;
+}
+
+.text-field {
+    -fx-text-fill: white;
+    -fx-background-color: #121212;
+    -fx-padding: 0.333333em 1em 0.333333em 1em;
+}
+
+text-area {
+    -fx-border-style: none;
+}
+
+.combo-box {
+    -fx-padding: 0em 1em 0em 1em;
+}
+
+.text-field > .input-line,
+.combo-box > .input-line {
+    -fx-background-color: #2e314e;
+    -fx-pref-height: 0px;
+    -fx-translate-y: 0px;
+}
+
+.text-field > .input-focused-line,
+.combo-box > .input-focused-line {
+    /*-fx-background-color: rgb(40, 175, 176);*/
+    -fx-pref-height: 0px;
+}
+#priorityPicker .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #2e314e;
+}
+
+#priorityPicker .list-cell:hover {
+    -fx-background-color: #F7F0F5;
+    -fx-text-fill: black;
+}
+
+#priorityPicker {
+    -fx-border-color: rgba(255, 255, 255, 0.44);
+}
+
+#subtask .list-cell {
+    -fx-background-color: #2e314e;
+}
+
+#subtask .list-cell:hover {
+    -fx-background-color: #F7F0F5;
+    -fx-text-fill: black;
+}
+
+
+.text-field {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+/* .text-area > .content {
+    -fx-background-color: #121212;
+    -fx-border-radius: 10px !important;
+    -fx-background-radius: 10px !important;
+}
+*/
+
+#dueDatePicker {
+    -fx-background-color: transparent;
+    -fx-max-width: 175px !important;
+    -fx-border-color: rgba(255, 255, 255, 0.44);
+    -fx-border-radius: 20px;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-radius: 0px 20px 20px 0px;
+    -fx-border-radius: 20px;
+    -fx-background-size: 60% 60%; /* Can be `cover` or `100% 100%` ect. */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; /* Put the icon in the center */
+}
+
+.scroll-bar:horizontal .thumb {
+-fx-background-color:
+        rgba(255, 255, 255, 0.44),
+    linear-gradient(#2e314e 0%, #4C4177 100%),
+    linear-gradient(#2e314e 0%, #4C4177 100%);
+-fx-background-insets: 0, 1, 2;
+-fx-background-radius: 0.5em; /* makes sure this remains circular */
+}
+
+.scroll-bar:vertical .thumb {
+-fx-background-color:
+    linear-gradient(#2e314e 0%, #4C4177 100%),
+    linear-gradient(#2e314e 0%, #4C4177 100%),
+    linear-gradient(#2e314e 0%, #4C4177 100%);
+-fx-background-insets: 0, 1, 2;
+-fx-background-radius: 0.5em; /* makes sure this remains circular */
+}
+
+.scroll-bar:horizontal {
+-fx-background-color:
+    #121212,
+    #121212;
+-fx-background-insets: 0, 1;
+}
+.scroll-bar:horizontal:focused {
+-fx-background-color:
+    -fx-focus-color,
+    -fx-box-border,
+    #121212;
+-fx-background-insets: -1.4, 0, 1;
+}
+.scroll-bar:vertical {
+-fx-background-color:
+    #121212,
+    #121212;
+-fx-background-insets: 0, 1;
+}
+.scroll-bar:vertical:focused {
+-fx-background-color:
+    #121212,
+    #121212,
+    #121212;
+-fx-background-insets: -1.4, 0, 1;
+}
+
+#titleText, #labelAdder, #descText{
+    -fx-border-color: rgba(255, 255, 255, 0.44);
+}
+
+#descText {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}

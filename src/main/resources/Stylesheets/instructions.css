@@ -1,0 +1,10 @@
+AnchorPane, .root, #taskView, #Content {
+    -fx-background-color: #19161d;
+    -fx-font-family: "Apple Symbols";
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.label {
+    -fx-text-fill: white;
+}

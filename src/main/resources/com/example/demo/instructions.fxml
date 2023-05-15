@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PrefController">
+   <children>
+      <Label layoutX="27.0" layoutY="188.0" prefHeight="25.0" prefWidth="94.0" text="Shortcuts:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="220.0" prefHeight="16.0" prefWidth="401.0" text="Create New Task: Ctrl + N" />
+      <Label layoutX="40.0" layoutY="237.0" prefHeight="17.0" prefWidth="273.0" text="Edit Task (Select First): Ctrl + E" />
+      <Label layoutX="40.0" layoutY="254.0" prefHeight="17.0" prefWidth="273.0" text="Delete Task (Select First): Ctrl + Backspace" />
+      <Label layoutX="40.0" layoutY="288.0" prefHeight="17.0" prefWidth="273.0" text="Copy Task (Select First): Ctrl + C" />
+      <Label layoutX="40.0" layoutY="305.0" prefHeight="17.0" prefWidth="273.0" text="Paste Task: Ctrl + V" />
+      <Label layoutX="40.0" layoutY="322.0" prefHeight="17.0" prefWidth="273.0" text="Cut Task (Select First): Ctrl + X" />
+      <Label layoutX="40.0" layoutY="271.0" prefHeight="17.0" prefWidth="273.0" text="Save Task: Ctrl + S" />
+      <Label layoutX="40.0" layoutY="339.0" prefHeight="17.0" prefWidth="273.0" text="Move Task Up (Select First): Ctrl + Shift + Q" />
+      <Label layoutX="40.0" layoutY="356.0" prefHeight="17.0" prefWidth="273.0" text="Move Task Down (Select First): Ctrl + Shift + A" />
+      <Label layoutX="40.0" layoutY="373.0" prefHeight="17.0" prefWidth="273.0" text="Undo: Ctrl + Z" />
+      <Label layoutX="40.0" layoutY="390.0" prefHeight="17.0" prefWidth="273.0" text="Redo: Ctrl + Y" />
+      <Label layoutX="40.0" layoutY="407.0" prefHeight="17.0" prefWidth="273.0" text="Show Preferences: Ctrl + Comma" />
+      <Label layoutX="27.0" layoutY="84.0" prefHeight="25.0" prefWidth="128.0" text="Task Properties:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="109.0" prefHeight="16.0" prefWidth="420.0" text="Edit Menu: Title, Description, Labels, Priority, Due Date" />
+      <Label layoutX="40.0" layoutY="126.0" prefHeight="16.0" prefWidth="420.0" text="Right Click on Task: toggle Completed ☑, or In Progress ▶" />
+      <Label layoutX="40.0" layoutY="152.0" prefHeight="16.0" prefWidth="401.0" text="Labels can also be added with # in the Title" />
+      <Label layoutX="24.0" layoutY="26.0" prefHeight="25.0" prefWidth="375.0" text="Sort By ↑↓ : Title, Priority, Due Date, and Completion">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="51.0" prefHeight="25.0" prefWidth="437.0" text="Preferences: Change save location of Task List and Font Size of List">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
