@@ -1,6 +1,6 @@
-# Intentions
-
 Intentions is a todo list application with productivity features. It has all the basic functionality of a todo list (eg. adding tasks, adding a due date etc). A user also has the abiltiy to toggle whether a task is in progress or not. 
+
+# Intentions
 
 ## Team Members 
 Ely Golden, Nicole Planeta and Saffiyah Mohammed.
